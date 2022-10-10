@@ -13,6 +13,13 @@ class ViewController: UIViewController {
     var thirdviewccontroller = ThirdViewController()
     var alertcontroller = UIAlertController()
     
+    
+    @IBAction func button(_ sender: UIButton) {
+        
+    //tried
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -46,7 +53,7 @@ class ViewController: UIViewController {
         alertcontroller.didMove(toParent: self)
         
         secondviewcontroller.view.frame = CGRect(x: 0, y: 0, width: 80, height: height)
-        thirdviewccontroller.view.frame = CGRect(x: 0, y: 0, width: 80, height: height)
+        thirdviewccontroller.view.frame = CGRect(x: 80, y: 0, width: 80, height: height)
         alertcontroller.view.frame = CGRect(x: 100, y: 100, width: 100, height: 200)
         
         thirdviewccontroller.view.isHidden = true
@@ -74,14 +81,15 @@ class ViewController: UIViewController {
             thirdviewccontroller.view.isHidden = false
             
         } else if index == 2 {
+
+            
+// MARK: - Tried Push ViewController
             
             let storyboardRef = UIStoryboard(name: "segueBoard", bundle: nil)
-            
+
             let newVC = storyboardRef.instantiateViewController(withIdentifier: "segueview") as! SegueViewController
-            
+
             navigationController?.pushViewController(newVC, animated: true)
-            
-            // alertcontroller.view.isHidden = false
             
         }
     }

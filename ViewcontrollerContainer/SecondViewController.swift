@@ -15,6 +15,10 @@ class SecondViewController: UIViewController {
         self.view.backgroundColor = .systemCyan
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+    
 
     /*
     // MARK: - Navigation

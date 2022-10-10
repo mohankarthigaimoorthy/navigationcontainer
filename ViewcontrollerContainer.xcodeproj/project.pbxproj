@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4373ED6728F440E000B59087 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4373ED6628F440E000B59087 /* FourthViewController.swift */; };
 		43A22DA328DC24BC00C41F8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A22DA228DC24BC00C41F8B /* AppDelegate.swift */; };
 		43A22DA528DC24BC00C41F8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A22DA428DC24BC00C41F8B /* SceneDelegate.swift */; };
 		43A22DA728DC24BC00C41F8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A22DA628DC24BC00C41F8B /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4373ED6628F440E000B59087 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		43A22D9F28DC24BC00C41F8B /* ViewcontrollerContainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewcontrollerContainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A22DA228DC24BC00C41F8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43A22DA428DC24BC00C41F8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				43A22DA628DC24BC00C41F8B /* ViewController.swift */,
 				43A22DB628DC2CD900C41F8B /* SecondViewController.swift */,
 				43A22DB828DC2CEB00C41F8B /* ThirdViewController.swift */,
+				4373ED6628F440E000B59087 /* FourthViewController.swift */,
 				43A22DA828DC24BC00C41F8B /* Main.storyboard */,
 				43A22DC028DC6F6600C41F8B /* SegueFolder */,
 				43A22DAB28DC24BD00C41F8B /* Assets.xcassets */,
@@ -162,6 +165,7 @@
 				43A22DBC28DC6B6E00C41F8B /* SegueViewController.swift in Sources */,
 				43A22DB728DC2CD900C41F8B /* SecondViewController.swift in Sources */,
 				43A22DA728DC24BC00C41F8B /* ViewController.swift in Sources */,
+				4373ED6728F440E000B59087 /* FourthViewController.swift in Sources */,
 				43A22DB928DC2CEB00C41F8B /* ThirdViewController.swift in Sources */,
 				43A22DA328DC24BC00C41F8B /* AppDelegate.swift in Sources */,
 				43A22DA528DC24BC00C41F8B /* SceneDelegate.swift in Sources */,
@@ -311,7 +315,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2K3S5JKLSZ;
+				DEVELOPMENT_TEAM = 37D4SXVKKL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ViewcontrollerContainer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -342,7 +346,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2K3S5JKLSZ;
+				DEVELOPMENT_TEAM = 37D4SXVKKL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ViewcontrollerContainer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
